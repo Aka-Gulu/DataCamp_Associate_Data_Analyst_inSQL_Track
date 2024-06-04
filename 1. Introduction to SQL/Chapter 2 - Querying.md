@@ -1,7 +1,7 @@
 ### Querying the books table
 _________________________________________
 
-```sql
+```
 -- Return all titles from the books table
 SELECT title FROM books;
 
@@ -12,18 +12,18 @@ FROM books;
 -- Select all fields from the books table
 SELECT *
 FROM books;
-
+```
 
 ### Making queries DISTINCT
 _________________________________________
-```sql
+```
 -- Select unique authors from the books table  
 select distinct author from books
 
 -- Select unique authors and genre combinations from the books table  
 SELECT distinct author,genre
 FROM books;
-
+```
 
 ### Aliasing
 _________________________________________
