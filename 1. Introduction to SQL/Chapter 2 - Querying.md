@@ -16,6 +16,7 @@ FROM books;
 
 ### Making queries DISTINCT
 _________________________________________
+```sql
 -- Select unique authors from the books table  
 select distinct author from books
 
