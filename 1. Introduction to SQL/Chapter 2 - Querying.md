@@ -1,7 +1,7 @@
 ### Querying the books table
 _________________________________________
 
-```
+```sql
 -- Return all titles from the books table
 SELECT title FROM books;
 
