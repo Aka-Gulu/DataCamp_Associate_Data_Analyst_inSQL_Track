@@ -1,5 +1,4 @@
-### Querying the books table
-_________________________________________
+#### Querying the books table
 -- Return all titles from the books table  
 select title from books
 
