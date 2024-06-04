@@ -12,7 +12,7 @@ FROM books;
 -- Select all fields from the books table
 SELECT *
 FROM books;
-```sql
+```
 
 ### Making queries DISTINCT
 _________________________________________
@@ -23,14 +23,15 @@ select distinct author from books
 -- Select unique authors and genre combinations from the books table  
 SELECT distinct author,genre
 FROM books;
-```sql
+```
 
 ### Aliasing
 _________________________________________
+```sql
 -- Alias author so that it becomes unique_author  
 SELECT DISTINCT author as unique_author
 FROM books;
-
+```
 ### VIEWing your query
 _________________________________________
 -- Save the results of this query as a view called library_authors  
