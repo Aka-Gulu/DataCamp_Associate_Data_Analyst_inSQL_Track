@@ -1,4 +1,4 @@
-## Querying the books table
+### Querying the books table
 _________________________________________
 -- Return all titles from the books table
 select title from books
@@ -12,7 +12,7 @@ SELECT *
 FROM books;
 
 
-## Making queries DISTINCT
+### Making queries DISTINCT
 _________________________________________
 -- Select unique authors from the books table
 select distinct author from books
