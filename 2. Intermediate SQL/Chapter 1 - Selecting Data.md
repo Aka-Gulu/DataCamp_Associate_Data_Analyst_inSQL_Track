@@ -22,5 +22,28 @@ select distinct(country) from films
 select count(distinct(country)) as count_distinct_countries from films
 ```
 
-### SELECT DISTINCT
+### Debugging errors
 _________________________________________
+```sql
+-- Debug this code
+SELECT certification
+FROM films
+LIMIT 5;
+
+-- Debug this code
+SELECT film_id, imdb_score, num_votes
+FROM reviews;
+
+-- Debug this code
+SELECT COUNT(birthdate) AS count_birthdays
+FROM people;
+```
+
+### Formatting
+_________________________________________
+```sql
+-- Rewrite this query
+SELECT person_id, role 
+FROM roles 
+LIMIT 10;
+```
