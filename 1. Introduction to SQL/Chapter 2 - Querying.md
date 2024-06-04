@@ -3,18 +3,18 @@ _________________________________________
 -- Return all titles from the books table  
 select title from books
 
--- Select title and author from the books table
+-- Select title and author from the books table  
 SELECT title,author
 FROM books;
 
--- Select all fields from the books table
+-- Select all fields from the books table  
 SELECT *
 FROM books;
 
 
 ### Making queries DISTINCT
 _________________________________________
--- Select unique authors from the books table
+-- Select unique authors from the books table  
 select distinct author from books
 
 
