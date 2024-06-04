@@ -1,6 +1,6 @@
 ### Querying the books table
 _________________________________________
--- Return all titles from the books table
+-- Return all titles from the books table  
 select title from books
 
 -- Select title and author from the books table
